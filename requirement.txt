@@ -1,7 +1,5 @@
  time
  subprocess
- rich.
  rich
- rich
-pyfiglet
+ pyfiglet
 random 
