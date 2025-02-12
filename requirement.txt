@@ -1,6 +1,6 @@
- time
- subprocess
- rich
- pyfiglet
+time
+subprocess
+rich
+pyfiglet
 random 
 argparse
