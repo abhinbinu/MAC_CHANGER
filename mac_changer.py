@@ -14,7 +14,7 @@ def animated_big_heading(text):
     colors = ["bold red", "bold yellow", "bold green", "bold cyan", "bold blue", "bold magenta"]
     ascii_text = pyfiglet.figlet_format(text)
     
-    for _ in range(3):  # Reduce loops for speed
+    for _ in range(3): 
         console.clear()
         styled_text = Text(ascii_text, style=choice(colors))
         console.print(Panel(styled_text, expand=False, border_style=choice(colors)))
